@@ -1,7 +1,7 @@
 #header{
   display:flex;
   height: 50px;
-  width: auto;
+  width: 100%;
   flex-direction:row;
   flex-wrap: wrap;
   justify-content:space-between;
@@ -9,26 +9,56 @@
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
+
 }
 
 #logo{
   display:inline-flex;
+  height: inherit;
+
 }
 
-#header .options {
+.options{
+flex-wrap:wrap;
 
 }
 
 .option{
 padding: 15px;
 display:inline-flex;
+
 }
 
 .title{
 padding-left: 10px;
+color: MediumAquamarine;
+
+}
+*{
+  border: 1px solid red !important;
 }
 
-#logo .logo1{
-align-self: flex-start;
+#column{
+  display:inline-flex;
+  flex-flow:row wrap;
 
+}
+.large{
+  display:flex;
+  flex-flow:column;
+  width: 630px;
+}
+
+.medium{
+  display:flex;
+  flex-flow:column;
+  width: 300px;
+  margin-left: 20px;
+}
+
+.small{
+  display:flex;
+  flex-flow:column;
+  width: 240px;
+  margin-left: 20px;
 }
