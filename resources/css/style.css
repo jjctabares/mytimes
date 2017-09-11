@@ -32,6 +32,7 @@ display:inline-flex;
 .title{
 padding-left: 10px;
 color: MediumAquamarine;
+font-size: 15px;
 
 }
 *{
@@ -61,4 +62,96 @@ color: MediumAquamarine;
   flex-flow:column;
   width: 240px;
   margin-left: 20px;
+}
+
+#graph1{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  width: 630px;
+  height: 300px;
+  background-image: url("../images/img-story-main.png");
+}
+
+h3 {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+
+.headergraph1 {
+  font-size: 40px;
+  padding: 15px;
+}
+
+#graph2,
+#graph3,
+#graph4{
+  display:flex;
+  align-items:center;
+  text-align: center;
+  justify-content:space-between;
+  width: 300px;
+  height: 300px;
+}
+
+#graph2{
+  background-image: url("../images/img-story-2.png");
+}
+
+#graph3{
+  background-image: url("../images/img-story-3.png");
+}
+
+#graph4{
+  background-image: url("../images/img-story-1.png");
+}
+
+#newsparallel{
+  display:inline-flex;
+  flex-flow:row wrap;
+  justify-content:space-between;
+}
+
+.parallelleft{
+  display:flex;
+  flex-flow:column;
+  width: 300px;
+
+}
+
+.parallelrigth{
+  display:flex;
+  flex-flow:column;
+  width: 300px;
+  margin-left: 23px
+}
+
+.news2,
+.news3,
+.headernews2,
+.headernews3{
+  width: 300px;
+}
+
+.headernews2,
+.headernews3,
+.headernews4{
+  display:block;
+  font-family: Georgia;
+  font-size: 30px;
+  font-weight: bold;
+  font-style: normal;
+}
+.headernews5{
+    margin-bottom: 41px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center
+  }
+p{
+  font-family: Georgia;
+ font-size: 17px;
+ color: black;
 }
